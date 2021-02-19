@@ -1,5 +1,8 @@
 import unittest
-
+def add_element(bus):
+    bus=[2,2,0,9,2,0,0]
+    bus.append(1)
+    return bus
 
 class TestListMethods(unittest.TestCase):
 
