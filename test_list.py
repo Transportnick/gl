@@ -2,7 +2,7 @@ import unittest
 
 
 def add_element(bus):
-    bus=[2, 2, 0, 9, 2, 0, 0]
+    bus = [2, 2, 0, 9, 2, 0, 0]
     bus.append(1)
     return bus
 
@@ -21,7 +21,7 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(2*[1, 3, 5], [1, 3, 5, 1, 3, 5])
 
     def test_illya_melnick_fi94(self):
-        lista=[2, 2, 0, 9, 2, 0, 0]
+        lista = [2, 2, 0, 9, 2, 0, 0]
         self.assertEqual(add_element(lista),[2, 2, 0, 9, 2, 0, 0, 1])
 
 
