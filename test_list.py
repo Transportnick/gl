@@ -22,6 +22,12 @@ def add_element(bus):
     return bus
 
 
+def delete(list):
+    list = [3, 5, 2, 9, 8]
+    list.pop()
+    return list
+
+
 class TestListMethods(unittest.TestCase):
     def test_liubov_peleshenko_fi_94(self):
         list = [1, 2, 3, 4, 5, 6]
@@ -56,6 +62,10 @@ class TestListMethods(unittest.TestCase):
 
     def test_kostiantyn_baievskyi_fi_93(self):
         self.assertEqual([1, 2, 3] + [4, 5, 6], [1, 2, 3, 4, 5, 6])
+
+    def test_alina_misnik_fi_94(self):
+        list = [3, 5, 2, 9, 8]
+        self.assertEqual(delete(list), [3, 5, 2, 9])
 
     def test_andrii_kutsenko_fi_94(self):
         list1 = [4, 5, 7, 3, 8, 6, 3, 9]
