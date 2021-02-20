@@ -15,7 +15,7 @@ def rem_last_element(list):
     list.remove(list[-1])
     return list
 
-  
+
 def add_element(bus):
     bus = [2, 2, 0, 9, 2, 0, 0]
     bus.append(1)
