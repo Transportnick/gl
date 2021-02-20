@@ -25,7 +25,7 @@ class TestListMethods(unittest.TestCase):
 
     def test_illya_melnick_fi94(self):
         lista = [2, 2, 0, 9, 2, 0, 0]
-        self.assertEqual(add_element(lista),[2, 2, 0, 9, 2, 0, 0, 1])
+        self.assertEqual(add_element(lista), [2, 2, 0, 9, 2, 0, 0, 1])
 
 
 if __name__ == '__main__':
